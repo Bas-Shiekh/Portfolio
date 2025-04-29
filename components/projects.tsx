@@ -8,6 +8,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github } from "lucide-react";
 import BlogPostImage from "@/public/blogpost.png";
+import BrainVaultImage from "@/public/BrainVault.png";
 import GeekSchool from "@/public/GeekSchool.png";
 import GamsicIamge from "@/public/Gamsic.png";
 import ClockImage from "@/public/Clock.png";
@@ -24,7 +25,7 @@ export function Projects() {
       title: "Brain Vault",
       description:
         "AI-Powered Knowledge Base is a smart note-taking app that lets you create, organize, and share notes with AI-generated content and summaries.",
-      image: BlogPostImage,
+      image: BrainVaultImage,
       tags: [
         "React",
         "NestJS",
