@@ -21,6 +21,23 @@ export function Projects() {
 
   const projects = [
     {
+      title: "Brain Vault",
+      description:
+        "AI-Powered Knowledge Base is a smart note-taking app that lets you create, organize, and share notes with AI-generated content and summaries.",
+      image: BlogPostImage,
+      tags: [
+        "React",
+        "NestJS",
+        "MongoDB",
+        "Node.js",
+        "TypeScript",
+        "Zustand",
+        "TailwindCSS",
+      ],
+      liveUrl: "https://brain-vault-a3pqaapr6-basshiekhs-projects.vercel.app/",
+      githubUrl: "https://github.com/Bas-Shiekh/BrainVault",
+    },
+    {
       title: "Blog Post",
       description:
         "A full-stack Blog Post platform built with React, Node.js, and MongoDB. Features include user authentication, and Posts & comments management.",
@@ -61,15 +78,6 @@ export function Projects() {
       tags: ["HTML", "CSS", "Javascript", "REST API"],
       liveUrl: "https://gsg-cf05.github.io/GAMSIC/",
       githubUrl: "https://github.com/GSG-CF05/GAMSIC",
-    },
-    {
-      title: "Clock Application",
-      description:
-        "This app is a simple practice project for CSS and JavaScript. It displays the current time with separate clocks for hours, minutes, and seconds.",
-      image: ClockImage,
-      tags: ["HTML", "CSS", "Javascript"],
-      liveUrl: "https://bas-shiekh.github.io/Clock/",
-      githubUrl: "https://github.com/Bas-Shiekh/Clock",
     },
     {
       title: "Calculator Application",
