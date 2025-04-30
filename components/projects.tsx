@@ -35,7 +35,7 @@ export function Projects() {
         "Zustand",
         "TailwindCSS",
       ],
-      liveUrl: "https://brain-vault-gamma.vercel.app/",
+      liveUrl: "https://brain-vault-rosy.vercel.app/",
       githubUrl: "https://github.com/Bas-Shiekh/BrainVault",
     },
     {
